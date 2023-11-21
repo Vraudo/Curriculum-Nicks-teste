@@ -1,0 +1,53 @@
+
+
+h1 , h2 , h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#nameDesigner{
+        margin: 0% auto;
+        text-align: center;    
+        width: 500px;   
+        background-color: white ;
+}
+
+#header{
+    background-color: darkcyan;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#lista01{
+    list-style-type: none;
+}
+.svg01{
+    width: 30px;
+    
+}
+#container{
+    grid-template-columns:40% auto;
+    display: grid;
+    grid-column-gap: 20px;
+    
+}
+#sidebar , #conteúdo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.cards h3{
+    font-family: 'Poppins', sans-serif;
+}
+.cards{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid;
+    border-color: darkcyan;
+    border-radius: 20px;
+    padding: 20px;
+}
+#comimg{
+
+display: flex;
+gap: 15px;
+align-items: center;
+
+}
